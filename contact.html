@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/3d49ef96c0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="banner">
+        <div class="nav-bar">
+            <img src="sal.png" class="logo">
+            
+            
+            <ul class="menu">
+                
+                <li class="active"><a href="home (2).html">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Reservation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+
+           
+            </div>
+            <div class="nav-bar2">
+                <ul class="menu2">
+                    <span></span>
+                    <li class="active"><a href="home (2).html">Home</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Reservation</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+    
+                <div class="menu-toggle"><i class="fas fa-bars" style="color: white;"></i></div>
+                
+            </div>
+            <form>
+                <div class="row">
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name"> <i class="fas fa-user"></i> Your Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="number" required>
+                    <label for="subject"><i class="fas fa-cog"></i> Subject</label>
+                </div>
+            </div>
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                </div>
+                <div class="input-group">
+                    <textarea  id="message"  rows="8" required></textarea>
+                    <label for="message"><i class="fas fa-comments"></i> Your Message</label>
+                </div>
+                <button type="submit">SUBMIT <i class="fas fa-paper-plane"></i> </button>
+                
+            </form>
+        </div>
+        <section class="footer">
+            <div class="social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <ul class="menu">
+                
+                <li class="active"><a href="home (2).html">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Reservation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <p class="copyright">
+                copyright Rental car @ 2101-2022
+            </p>
+            
+        </section>
+        <script>
+            const menuu = document.querySelector(".menu-toggle");
+            const nav = document.querySelector(".nav-bar2");
+            const handleClick= function(){
+               nav.classList.toggle("nav-bar2-open")
+    
+            }
+            menuu.addEventListener("click", handleClick)
+            nav.addEventListener("click", handleClick)
+    
+    
+    
+    
+    
+        </script>
+</body>
+</html>
