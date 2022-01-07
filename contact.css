@@ -184,13 +184,20 @@ background-color: #9fafca;
     
 }
 .menu-toggle{
-    display: inline-block;
+    display:block;
     position:absolute;
     margin-left: 85%;
     bottom: 85%;
     font-size: 22px;
    
 }
+.menu-toggle2{
+    display: inline-block;
+    position:absolute;
+    margin-left: 85%;
+    bottom: 85%;
+    font-size: 22px;}
+   
 .nav-bar ul {
 
   display: none;  

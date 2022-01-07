@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reservation.css">
+    <script src="https://kit.fontawesome.com/3d49ef96c0.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="nav-bar">
+            <img src="sal.png" class="logo">
+            
+            
+            <ul class="menu">
+                
+                <li class="active"><a href="home (2).html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+            </div>
+            <div class="nav-bar2">
+                <ul class="menu2">
+                    <span></span>
+                    <li class="active"><a href="home (2).html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+    
+                <div class="menu-toggle2"><i class="fas fa-bars" style="color: white; bottom: 85%;" ></i></div>
+                
+            </div> 
+            <h1>Book now</h1>
+            <div class="global">
+            <div class="wrapper">
+            <div class="background"></div>
+            <div class="infos">
+                <h2>Citadine</h2>
+                <h3>Standrad Price: <span>12$/day</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et efficitur felis. Donec lorem massa, rutrum ut rhoncus sed, aliquam sit amet tellus.</p>
+                <select name="" onchange="setSelectedFinalPriceCitadine();" class="liist" id="list">
+                    <option value="Hybrid" id="h">Hybrid</option>
+                    <option value="Diesel" id="d">Diesel</option>
+                    
+                    <option value="Electric" id="e">Electric</option>
+                    <option value="Gasoline" id="g">Gasoline</option>
+                </select>
+                <label for=""><button type="button"  class="button1">Ok</button></label>
+               
+                    
+                </div>
+                
+                
+           
+            
+        </div>
+        <div class="center">
+
+          
+            
+           
+            
+            <div class="content">
+                <div class="header">
+                    <h2 id="h2">Rental Car</h2>
+                    <label for="" id="times" class="fas fa-times"></label>
+                </div>
+                <label for="click" class="fas fa-check"></label>
+                <h3>Congratulations</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, molestias.</p>
+                <div class="line"></div>
+
+                <label for="click" class="close-btn">Close</label>
+                <input type="text" id="btn">
+                
+            </div>
+        </div>  
+    
+        <div class="wrapper">
+            <div class="background1"></div>
+            <div class="infos">
+                <h2>Compact</h2>
+                <h3>Standrad Price: <span>14$/day</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et efficitur felis. Donec lorem massa, rutrum ut rhoncus sed, aliquam sit amet tellus.</p>
+                <select name="" class="commy" id="list" onchange="setSelectedFinalPriceCompacte();">
+                   
+                    <option value="auto">Diesel</option>
+                    <option value="manu">Hybrid</option>
+                    <option value="manu">Gasoline</option>
+                </select>
+                <label for=""><button type="button" class="button1">Ok</button></label>
+                
+            </div>
+            
+        </div>
+        <div class="wrapper">
+            <div class="background2"></div>
+            <div class="infos">
+                <h2>Berline</h2>
+                <h3>Standrad Price: <span>23.8$/day</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et efficitur felis. Donec lorem massa, rutrum ut rhoncus sed, aliquam sit amet tellus.</p>
+                <select name="" id="list">
+                   
+                    <option value="auto">Diesel</option>
+                    <option value="manu">Hybrid</option>
+                    <option value="manu">Gasoline</option>
+                </select>
+                <label for=""><button type="button" class="button1">Ok</button></label>
+                
+            </div>
+            
+        </div>
+        <div class="wrapper">
+            <div class="background3"></div>
+            <div class="infos">
+                <h2>Utilitaire</h2>
+                <h3>Standrad Price: <span>16$/day</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et efficitur felis. Donec lorem massa, rutrum ut rhoncus sed, aliquam sit amet tellus.</p>
+               <button class="bnb">Diesel</button>
+                
+                <label for=""><button type="button" class="button1">Ok</button></label>
+                
+            </div>
+            
+        </div>
+        <div class="wrapper">
+            <div class="background4"></div>
+            <div class="infos">
+                <h2>Truck</h2>
+                <h3>Standrad Price: <span>297,5$/day</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et efficitur felis. Donec lorem massa, rutrum ut rhoncus sed, aliquam sit amet tellus.</p>
+               <button class="bnb">Diesel</button>
+                
+                <label for=""><button type="button" class="button1">Ok</button></label>
+                
+            </div>
+            
+        </div>
+        <div class="wrapper">
+            <div class="background5"></div>
+            <div class="infos">
+                <h2>Motorcycle</h2>
+                <h3>Standrad Price: <span>10$/day</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et efficitur felis. Donec lorem massa, rutrum ut rhoncus sed, aliquam sit amet tellus.</p>
+                <select name="" id="list">
+                   
+                    
+                    <option value="manu">Electric</option>
+                    <option value="manu">Gasoline</option>
+                </select>
+                <label for=""><button type="button"  class="button1">Ok</button></label>
+                
+            </div>
+            
+        </div>
+        <div class="wrapper">
+            <div class="background6"></div>
+            <div class="infos">
+                <h2 >C-Machines</h2>
+                <h3>Standrad Price: <span>900$/day</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et efficitur felis. Donec lorem massa, rutrum ut rhoncus sed, aliquam sit amet tellus.</p>
+                <select name="" id="list">
+                   
+                    <option value="auto">Diesel</option>
+                  
+                    <option value="manu">Gasoline</option>
+                </select>
+                <label for=""><button type="button" class="button1">Ok</button></label>
+                
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="background7"></div>
+            <div class="infos">
+                <h2>Motorcycle</h2>
+                <h3>Standrad Price: <span>10$/day</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et efficitur felis. Donec lorem massa, rutrum ut rhoncus sed, aliquam sit amet tellus.</p>
+                <select name="" id="list">
+                   
+                    
+                    <option value="manu">Electric</option>
+                    <option value="manu">Gasoline</option>
+                </select>
+                <label for=""><button type="button" class="button1">Ok</button></label>
+                
+            </div>
+            
+        </div>
+        <div class="wrapper">
+            <div class="background8"></div>
+            <div class="infos">
+                <h2>Truck</h2>
+                <h3>Standrad Price: <span>297,5$/day</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et efficitur felis. Donec lorem massa, rutrum ut rhoncus sed, aliquam sit amet tellus.</p>
+               <button class="bnb">Diesel</button>
+                
+                <label for=""><button type="button" class="button1">Ok</button></label>
+                
+            </div>
+            
+        </div>
+    
+    
+    </div>
+            
+            
+            </div>
+            <footer>
+                <section class="footer">
+                    <div class="social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <ul class="menu">
+                        
+                        <li class="active"><a href="home (2).html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="reservation.html">Reservation</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <p class="copyright">
+                        copyright Rental car @ 2101-2022
+                    </p>
+                    
+                </section>
+            </footer>
+            <script src="reservation.js">
+               
+            </script>    
+</body>
+</html>
